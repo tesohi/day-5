@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(33, 37, 41);
+    background-color: rgb(241, 241, 241);
+    font-family: Montserrat, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+li {
+    list-style-type: none;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+}
+
+.section {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0 1.5rem 0;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.FAQ-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: .5rem;
+    grid-row-gap: 1.5rem;
+    justify-content: space-around;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.FAQ-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.FAQ-section {
+    background-color: rgb(241, 241, 241);
+    padding: 1rem 5rem;
+    border-radius: 5px;
+}
+
+.FAQ-section-topic {
+    margin-bottom: .5rem;
+}
+
+.question {
+    margin-bottom: .3rem;
+}
+
+.feedback-form {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+.email > p {
+    margin-bottom: .3rem;
+}
+
+.email-textbox {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.message > p {
+    margin-bottom: .3rem;
+}
+
+.message-textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    font-family: "PT Sans", sans-serif;
+}
+
+.form-control {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-button {
+    display: inline-block;
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
